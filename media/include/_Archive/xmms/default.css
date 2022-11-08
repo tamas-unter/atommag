@@ -1,0 +1,57 @@
+html { padding: 0px; margin: 0px; }
+body { background-color: black; padding: 0px; margin: 0px; height: 100%; }
+img { border: 0px none; }
+table.player {
+	width: 100%;
+	margin-left: auto; margin-right: auto;
+	font: 8pt Tahoma, Verdana, Arial;
+	color: #30d000;
+	border-bottom: 1px solid #103000;
+}
+table.playlist {
+
+}
+table.playlist tr th {
+	font: 8pt Tahoma, Verdana, Arial;
+	color: #30d000;
+}
+a.yellow:link, a.yellow:visited, a.yellow:active{
+	font: 8pt Tahoma, Verdana, Arial;
+	text-decoration: none;
+	color: #fff000;
+}
+
+table.playlist tr td {
+	font: 8pt Tahoma, Verdana, Arial;
+	color: #30d000;
+}
+table.playlist tr td.t {
+	font: 8pt Curier New, monospace;
+	color: #30d000;
+	text-align: right;
+	padding-left: 4px;
+}
+table.playlist tr td a {
+	font: 8pt Tahoma, Verdana, Arial;
+	color: #30d000;
+}
+
+table.playlist tr td.pl_cur {
+	font: 8pt Tahoma, Verdana, Arial;
+	background-color: #30d000;
+	color: black;
+}
+
+table.playlist tr td.pl_curt {
+	font: 8pt Curier New, monospace;
+	background-color: #30d000;
+	color: black;
+	padding-left: 4px;
+	text-align: right;
+}
+
+table.playlist tr td.pl_cur a {
+	font: 8pt Tahoma, Verdana, Arial;
+	color: black;
+}
+
