@@ -1,0 +1,54 @@
+body {background-color: #232333;}
+h3 { clear: left; }
+.slider { margin: 10px; border: 1px solid #876; background-color:#cba;width:2em;}
+.ui-slider-handle{width:2.5em !important;}
+#volume{float:left;display:block; height: 880px;}
+#tabs{float:left; width: 90%; margin-left: 8px; margin-right:10px; display:block; padding:0px 0px 20px 0px; overflow:hidden;}
+#debug{background-color: black; color:white;}
+/*#layout ul li{display:inline;list-style-type: none;}*/
+#tabs, #volume{
+height: 98%;
+
+}
+.statusPlaying {color: #afa;}
+.statusPaused {color: #efb;}
+.statusStopped {color: #faf;}
+#statusPosition{width:7ex; float:left; }
+#playerStatus{display: block; color: #dde; background-color: #223;clear:both; padding-left: 1ex;}
+#playerControls{
+	position: relative;
+	height: 4.0em;
+}
+#playerStatus a {color: #fff;}
+ul#playlist{list-style-type: none; color: #000; padding:0px; margin: 2px 0px 5px 0px;}
+ul#playlist li {font-size: 0.7em; padding:0em .30em;}
+.waiting{background-color: #ddd; color: #f00;}
+.playlistCurrent{font-size: 0.7em; font-weight: bold; background-color: #a8f;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+#xmmsMain{ overflow:hidden;
+	
+}
+div#searchResults{
+	border: thin solid green;
+	background-color: #fff;
+	position: absolute;
+	top: 2px;
+	left: 64px;
+	z-index:9999;
+	font-size:0.5em;
+}
+input#playfile{
+	font-size:0.6em;	
+}
+ul.searchGroup>li{
+	float:left;
+	display: inline;
+	cursor: pointer;
+}
+ul.searchItem li{
+	list-style-type: none;
+}
+#xmms {
+	padding: 0em;
+}
